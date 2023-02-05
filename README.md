@@ -20,10 +20,19 @@ What did this query change in the database? The query updated two columns for a 
 
 ![ch5_ex2_results](https://user-images.githubusercontent.com/123834123/216848279-e0ab394e-d13b-4c06-a24e-85a61d83bf2f.jpg)
 
-Ex. 3
+Ex 3.
 
 DELETE FROM terms WHERE terms_id = '6'
 
 What did this query change in the database? The query deleted a record from the terms table.
 
 ![ch5_ex3_resultsjpg](https://user-images.githubusercontent.com/123834123/216848913-467ecb6b-bb2e-4c94-ad6f-6aeae1ddcaf6.jpg)
+
+Ex 4.
+
+INSERT INTO invoices VALUES (DEFAULT, 32, 'AX-014-027', '2018-08-01', 434.58, 0.00, 0.00, 2, '2018-08-31', NULL)
+
+What did this query change in the database? The query added a record to the invoices table.
+
+![ch5_ex4_results](https://user-images.githubusercontent.com/123834123/216850690-7662801f-6f58-4349-addc-081616418256.jpg)
+
