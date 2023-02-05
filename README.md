@@ -17,3 +17,5 @@ Ex 2.
 UPDATE terms SET terms_description = 'Net due 125 days', terms_due_days = '125' WHERE terms_id = '6'
 
 What did this query change in the database? The query updated two columns for a record in the terms table. 
+
+![ch5_ex2_results](https://user-images.githubusercontent.com/123834123/216848279-e0ab394e-d13b-4c06-a24e-85a61d83bf2f.jpg)
