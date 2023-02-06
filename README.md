@@ -36,3 +36,10 @@ What did this query change in the database? The query added a record to the invo
 
 ![ch5_ex4_results](https://user-images.githubusercontent.com/123834123/216850690-7662801f-6f58-4349-addc-081616418256.jpg)
 
+Ex 5.
+
+INSERT INTO invoice_line_items VALUES (116, 1, 160, 180.23, 'Hard drive'), (116, 2, 527, 254.35, 'Exchange Server update')
+
+What did this query change in the database? The query added 2 records to the invoice_line_items table.
+
+![ch5_ex5_results](https://user-images.githubusercontent.com/123834123/216854267-e572b84d-b3b5-4cbb-9162-54fdde1e32b4.jpg)
