@@ -48,6 +48,12 @@ Ex 6.
 
 UPDATE invoices SET credit_total = .1 * invoice_total, invoice_total = payment_total + credit_total WHERE invoice_id = '116'
 
-What did this query change in the database?  The query updated 2 columns for a record in the invoices table.
+What did this query change in the database? The query updated 2 columns for a record in the invoices table.
 
 ![ch5_ex6_results](https://user-images.githubusercontent.com/123834123/218279120-e59d38c2-7217-4639-9aa2-df99a7cfa468.jpg)
+
+UPDATE vendors SET default_account_number = '403' WHERE vendor_id = '44'
+
+What did this query change in the database? The query updated a column for a record in the vendors table.
+
+![ch5_ex7_results](https://user-images.githubusercontent.com/123834123/218279561-8c8f390e-83ba-47be-bb89-31c987306542.jpg)
