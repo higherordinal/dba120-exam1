@@ -52,6 +52,8 @@ What did this query change in the database? The query updated 2 columns for a re
 
 ![ch5_ex6_results](https://user-images.githubusercontent.com/123834123/218279120-e59d38c2-7217-4639-9aa2-df99a7cfa468.jpg)
 
+Ex 7.
+
 UPDATE vendors SET default_account_number = '403' WHERE vendor_id = '44'
 
 What did this query change in the database? The query updated a column for a record in the vendors table.
