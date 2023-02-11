@@ -59,3 +59,11 @@ UPDATE vendors SET default_account_number = '403' WHERE vendor_id = '44'
 What did this query change in the database? The query updated a column for a record in the vendors table.
 
 ![ch5_ex7_results](https://user-images.githubusercontent.com/123834123/218279561-8c8f390e-83ba-47be-bb89-31c987306542.jpg)
+
+Ex 8.
+
+UPDATE invoices SET terms_id = 2 WHERE vendor_id IN (SELECT vendor_id FROM vendors WHERE default_terms_id = '2')
+
+What did this query change in the database? The query updated a column for records in the invoices table for vendors which have a default_terms_id of 2 in the vendors table.
+
+![ch5_ex8_results](https://user-images.githubusercontent.com/123834123/218281180-f74b3d35-db55-40a2-8c84-ed1b310dd0e6.jpg)
