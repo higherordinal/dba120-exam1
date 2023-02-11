@@ -43,3 +43,11 @@ INSERT INTO invoice_line_items VALUES (116, 1, 160, 180.23, 'Hard drive'), (116,
 What did this query change in the database? The query added 2 records to the invoice_line_items table.
 
 ![ch5_ex5_results](https://user-images.githubusercontent.com/123834123/216854267-e572b84d-b3b5-4cbb-9162-54fdde1e32b4.jpg)
+
+Ex 6.
+
+UPDATE invoices SET credit_total = .1 * invoice_total, invoice_total = payment_total + credit_total WHERE invoice_id = '116'
+
+What did this query change in the database?  The query updated 2 columns for a record in the invoices table.
+
+![ch5_ex6_results](https://user-images.githubusercontent.com/123834123/218279120-e59d38c2-7217-4639-9aa2-df99a7cfa468.jpg)
