@@ -67,3 +67,11 @@ UPDATE invoices SET terms_id = 2 WHERE vendor_id IN (SELECT vendor_id FROM vendo
 What did this query change in the database? The query updated a column for records in the invoices table for vendors which have a default_terms_id of 2 in the vendors table.
 
 ![ch5_ex8_results](https://user-images.githubusercontent.com/123834123/218281180-f74b3d35-db55-40a2-8c84-ed1b310dd0e6.jpg)
+
+Ex 9.
+
+DELETE FROM invoice_line_items WHERE invoice_id = 116; DELETE FROM invoices WHERE invoice_id = 116;
+
+What did this query change in the database? The query deleted a record in the invoices table.
+
+![ch5_ex9_results](https://user-images.githubusercontent.com/123834123/218281965-cab2dc51-ffce-4607-b548-9ccf47d044de.jpg)
